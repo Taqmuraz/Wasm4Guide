@@ -1,8 +1,11 @@
 1) Download wasm4 and copy to any folder
-2) Download wasi-sdk binaries and copy to the same folder
+2) Download wasi-sdk binaries and copy to the same folder  https://github.com/WebAssembly/wasi-sdk/releases
 3) Install cmake
 4) Download ninja and copy to the same folder
 5) Download clang
 6) Set PATH variable WASI_SDK_PATH as your folder
 7) If getting error with cmake, install chocolatey
 8) any problems -- run in administrator powershell
+
+Command to install chocolatey on windows :
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
